@@ -1,7 +1,7 @@
 {
-  "name": "react-image-zoom",
+  "name": "react-thumbnail-zoom",
   "version": "1.0.0",
-  "description": "react-image-zoom React component",
+  "description": "beautiful transitions for viewing thumbnails",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -34,8 +34,10 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/bmcmahen/react-thumbnail-zoom",
   "keywords": [
-    "react-component"
+    "react-component",
+    "thumbnails",
+    "image"
   ]
 }
