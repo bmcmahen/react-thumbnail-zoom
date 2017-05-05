@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-React thumbnail zoom makes transitioning from thumbnails to fullscreen images beautiful. It's the same effect you see on Medium.com.
+React thumbnail zoom makes transitioning from thumbnails to fullscreen images beautiful. It's the same effect you see on Medium.com. Check out the super simple [demo](http://jagged-dinner.surge.sh/).
 
 ## Install
 ```
