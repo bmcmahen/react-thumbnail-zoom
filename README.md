@@ -4,7 +4,12 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-image-zoom here.
+React image zoom makes transitioning from thumbnails to fullscreen images beautiful. It's the same effect you see on Medium.com.
+
+## Install
+```
+yarn install react-image-zoom
+```
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
@@ -14,3 +19,13 @@ Describe react-image-zoom here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+```
+import Zoom from 'react-image-zoom';
+
+const SuperAwesomeImage = () => (
+  <Zoom>
+    <img src='/super-awesome-image.jpg' />
+  </Zoom>
+)
+```
