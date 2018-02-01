@@ -2,6 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import viewport from "viewport-size";
 import Portal from "react-portal";
+import PropTypes from 'prop-types';
 
 class ImageZoom extends React.Component {
   constructor(props) {
@@ -14,14 +15,14 @@ class ImageZoom extends React.Component {
   }
 
   static propTypes = {
-    zoomedIn: React.PropTypes.bool,
-    onZoomToggle: React.PropTypes.func,
-    zoomedInURL: React.PropTypes.string,
-    padding: React.PropTypes.number,
-    duration: React.PropTypes.number,
-    loader: React.PropTypes.node,
-    overlay: React.PropTypes.bool,
-    closeButton: React.PropTypes.bool
+    zoomedIn: PropTypes.bool,
+    onZoomToggle: PropTypes.func,
+    zoomedInURL: PropTypes.string,
+    padding: PropTypes.number,
+    duration: PropTypes.number,
+    loader: PropTypes.node,
+    overlay: PropTypes.bool,
+    closeButton: PropTypes.bool
   };
 
   static defaultProps = {
