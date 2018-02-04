@@ -1,6 +1,6 @@
 {
   "name": "react-thumbnail-zoom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "beautiful transitions for viewing thumbnails",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,15 +21,16 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "react-portal": "^3.1.0",
-    "viewport-size": "^0.0.1"
+    "viewport-size": "^0.0.1",
+    "prop-types": "^15.6.0"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "16.x"
   },
   "devDependencies": {
     "nwb": "0.15.x",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "author": "",
   "homepage": "",
