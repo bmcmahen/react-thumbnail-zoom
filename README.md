@@ -1,3 +1,5 @@
+#### I've released a new library that does much the same thing: [react-image-enlarger](https://github.com/bmcmahen/react-image-enlarger).
+
 # react-thumbnail-zoom
 
 [![Travis][build-badge]][build]
